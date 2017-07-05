@@ -5,4 +5,5 @@ module.exports = {
     app4: './src/app4.js',
     app5: './src/app5.js',
     app6: './src/app6.js',
+    todo: './src/todo.js',
 };
