@@ -31,7 +31,7 @@ const compiler = webpack({
         test: /\.js$/,
         loader: 'babel',
         query: {
-          presets: ['es2015']
+          presets: ['env', 'stage-0']
         },
         exclude: /node_modules/
       }
