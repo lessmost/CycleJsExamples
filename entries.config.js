@@ -6,4 +6,6 @@ module.exports = {
     app5: './src/app5.js',
     app6: './src/app6.js',
     todo: './src/todo.js',
+    drivers: './src/drivers.js',
+    ws: './src/ws.js',
 };

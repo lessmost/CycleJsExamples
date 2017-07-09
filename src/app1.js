@@ -1,6 +1,5 @@
 import { run } from '@cycle/run'
 import { makeDOMDriver, div, input, p } from '@cycle/dom'
-import xs from 'xstream'
 
 const main = (sources) => {
   const vtree$ = sources.DOM.select('input').events('change')
@@ -12,15 +11,16 @@ const main = (sources) => {
         'Toggle me',
         p(value ? 'ON' : 'OFF'),
       ])
-    ))
+    ));
+
   const sinks = {
     DOM: vtree$
-  }
+  };
   return sinks
 }
 
 const drivers = {
   DOM: makeDOMDriver('#app')
-}
+};
 
-run(main, drivers)
+run(main, drivers);

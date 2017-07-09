@@ -23,6 +23,8 @@
     "@cycle/http": "^13.3.0",
     "@cycle/isolate": "^3.0.0",
     "@cycle/run": "^3.1.0",
+    "ip": "^1.1.5",
+    "websocket": "^1.0.24",
     "xstream": "^10.8.0"
   },
   "scripts": {
